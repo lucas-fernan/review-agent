@@ -1,0 +1,21 @@
+COEN 244 (Winter 2025) - Assignment 3
+Deadline: March 18 March 25 by 11:59PM
+Type: Group Assignment
+Graduate Attribute : Design (Introductory Level)
+Important notes:
+- Please add the name and student ID of both partners of a group in each file.
+- Please make sure that you submit both the .h and .cpp files for each class.
+- All submissions must be done through Moodle.
+- Assignments sent by email won’t be corrected. No late submission policy.
+Car Rental Management System
+The aim of this project is to design and implement a computerized Car Rental Management System for a company called CoenCars. The company rents two types of cars: standard and luxury cars. A car is identified by a car identification number (int), a type (string), and a flag that indicates whether the car is currently available or not. The company distinguishes between two types of customers: regular customers and corporate customers. A customer is identified by a customer number (int), name (string), address (string), and a telephone number (string). A customer can rent many cars. The rental date and return date must be tracked. A car can be rented only if it is available.
+Questions:
+1. Create the classes Car, StandardCar, and LuxuryCar. Include all data members and member functions. Note that Car should be abstract. Also, ensure that all overridden functions are virtual. Create a driver to test the Car inheritance hierarchy.
+2. Create the class Company. A company has many cars. You can assume that the maximum number of cars the company can have is 1000. You should create all member functions including functions that update the cars array. Create a driver to test the Company class.
+3. Create the Customer class. You also need to think on how to have a customer rent multiple cars and how to keep track of rental and return date. You may need to create additional classes.
+Important considerations:
+- All objects must be created using dynamic allocation. You must provide complete classes, meaning that the classes should contain appropriate constructors, a destructor, and a copy constructor.
+- Functions that do the same operations must be overridden. For example, a print() function in the Car class must be overridden in the derived classes. You also need to use dynamic binding to ensure that the proper overridden functions are called.
+  
+What to submit:
+Unlike the other assignments, for this assignment you need to submit one project of a working system. Using the system, we should be able to create different types of cars, many customers, rent cars to customers, return cars, etc. Make assumptions as to the number of member functions you should have.

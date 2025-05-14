@@ -1,0 +1,11 @@
+
+I will provide existing code base in "C++" language, where each code file will start with "FILENAME:" followed by the relative path to the file inside the code project, and the content of each 
+You must return some text based on my questions and requirements but also return ALL the multiple code files for the complete project, that should follow the same protocol I used to send you the files: start by its relative filename location and names as "FILENAME:" follow by the relative path. The code itself must be enclosed between "@!" and "!@". 
+
+Understand the existing provided code based.
+Check that it fulfills the requirements.
+Review the existing code and propose improvements.
+Make a folder structure to better manage the different files and models
+You must Add comments to the existing code starting with "//TODO" followed by your inline comments regarding improvements.
+Propose any change in architecture but do not implement it.
+Return all the codebase files with your added comments for improvements and code reviews
