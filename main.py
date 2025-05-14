@@ -4,7 +4,7 @@ import re
 from pathlib import Path
 
 # Configuration
-project_folder = "../car_management"  # Folder to scan for .cs files (relative or absolute path)
+project_folder = "../car_management"  # Folder to scan for all files (relative or absolute path)
 API_URL = "https://api.x.ai/v1/chat/completions"
 API_TOKEN = "<xai-TOKEN>"  # Replace with your token
 headers = {"Authorization": f"Bearer {API_TOKEN}"}
